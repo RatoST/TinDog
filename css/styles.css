@@ -1,0 +1,183 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.title-cl {
+  text-align: left;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/*Navigation bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Download buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/* features */
+.features-cl {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-box {
+  padding: 2.5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feat-p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+.testimonials-cl {
+  background-color: #ef8172;
+  padding: 7% 12%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+/* Press section */
+.press-cl {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing Section */
+.pricing-cl {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-txt {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call to action */
+.call-to-action {
+  padding: 3% 15% 3%;
+}
+
+/* Social networks */
+.snt {
+  padding: 1%;
+}
+
+.social-networks {
+  margin-top: 2%;
+}
+
+/* Copyright */
+.copyright {
+  font-size: 0.8rem;
+  padding: 1%;
+}
+
+/* Media Query for devices CSS breakpoint*/
+@media (max-width:1028px) {
+  .title-cl {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media (min-width:2500px) {
+  .title-image {
+    position: static;
+  }
+}
